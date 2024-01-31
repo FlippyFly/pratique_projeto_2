@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Inconsolata", monospace;
+    font-size: 24px;
+    background-color: rgb(139, 240, 206);
+}
+
+.container {
+    display: block;
+    max-width: 560px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    color: rgb(4, 4, 104);
+}
+header div {
+    display: flex;
+}
+
+header h1 {
+    font-size: 36px;
+    color: rgb(131, 9, 245);
+}
+
+header span {
+    font-size: 24px;
+}
+
+header img {
+    margin-right: 8px;
+}
+
+form {
+    margin-bottom: 16px;
+    position: relative;
+    color: blue;
+}
+
+form #icone-nome {
+    position: absolute;
+    height: 24px;
+    top: 10px;
+    left: 8px;
+}
+
+form #icone-numero {
+    position: absolute;
+    height: 24px;
+    top: 55px;
+    left: 8px;
+}
+
+form #icone-email {
+    position: absolute;
+    height: 24px;
+    top: 96px;
+    left: 5px;
+}
+
+form input {
+    width: 440px;
+    border: none;
+    border-bottom: 1px solid rgb(14, 0, 0);
+    border-bottom-left-radius: 8px;
+    padding: 8px;
+    padding-left: 46px;
+}
+
+#numero {
+    width: 300px;
+}
+
+form input:focus {
+    outline:none;
+    border-bottom: 2px solid rgb(235, 73, 73);
+}
+
+form button {
+    color: white;
+    font-size: 16px;
+    margin-top: 8px;
+    padding: 4px;
+    width: 200px;
+    border-radius: 8px;
+    border:none;
+    background-color: rgb(30, 0, 128);
+    cursor: pointer;
+}
+
+#telefone {
+    display: flex;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+    border-top: 2px solid black;
+}
+
+table th {
+    width: 80px;
+    text-align: right;
+}
+
+table td {
+    margin: 8px 0;
+}
+
+#ultima-td {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    margin-bottom: 16px 0;
+}
+#ultima-th {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    margin-bottom: 16px 0;
+}
